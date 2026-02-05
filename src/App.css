@@ -1,0 +1,82 @@
+
+
+
+
+@property --p-1 { syntax: '<percentage>'; inherits: false; initial-value: 0%; }
+@property --p-2 { syntax: '<percentage>'; inherits: false; initial-value: 50%; }
+
+.gradient-bg {
+   
+   
+    
+    background-image: 
+        radial-gradient(at var(--p-1) var(--p-2), var(--color-1) 0px, transparent 55%),
+        radial-gradient(at var(--p-2) var(--p-1), var(--color-2) 0px, transparent 55%),
+        radial-gradient(at 100% var(--p-2), var(--color-3) 0px, transparent 55%),
+        radial-gradient(at var(--p-1) 100%, var(--color-4) 0px, transparent 55%),
+        radial-gradient(at 50% var(--p-1), var(--color-5) 0px, transparent 55%),
+        radial-gradient(at var(--p-2) 100%, var(--color-6) 0px, transparent 55%),
+        radial-gradient(at 0% var(--p-1), var(--color-7) 0px, transparent 55%),
+        radial-gradient(at var(--p-2) var(--p-2), var(--color-8) 0px, transparent 55%);
+    
+    background-color: var(--bg-color);
+    animation: rotateColors 12s linear infinite;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.06);
+    transition: transform 0.3s ease;
+}
+
+@keyframes rotateColors {
+    0% {
+        --p-1: 0%;
+        --p-2: 50%;
+        filter: hue-rotate(0deg);
+    }
+    25% {
+        --p-1: 50%;
+        --p-2: 100%;
+    }
+    50% {
+        --p-1: 100%;
+        --p-2: 50%;
+        filter: hue-rotate(20deg);
+    }
+    75% {
+        --p-1: 50%;
+        --p-2: 0%;
+    }
+    100% {
+        --p-1: 0%;
+        --p-2: 50%;
+        filter: hue-rotate(0deg);
+    }
+}
+
+
+
+.box-1 {
+    --bg-color: #f3e9f5;
+    --color-1: #bde0fe; --color-2: #cdb4db; --color-3: #ffc8dd;
+    --color-4: #cfe1f3; --color-5: #ffffff; --color-6: #ffafcc;
+    --color-7: #d1ecd4; --color-8: #cfbaf0;
+}
+
+.box-2 {
+    --bg-color: #fff1eb;
+    --color-1: #f3dcdd; --color-2: #fad0c4; --color-3: #ffecd2;
+    --color-4: #fbcfe8; --color-5: #ffffff; --color-6: #fecfef;
+    --color-7: #ececc4; --color-8: #f0e0d3;
+}
+
+.box-3 {
+    --bg-color: #e0f2f1;
+    --color-1: #caecd7; --color-2: #d9e9f1; --color-3: #b4dfa7;
+    --color-4: #ddb6c5; --color-5: #ffffff; --color-6: #f7f5c6;
+    --color-7: #dec8ec; --color-8: #cae4ee;
+}
+
+.box-4 {
+    --bg-color: #f5f3ff;
+    --color-1: #afbad3; --color-2: #e6ddb9; --color-3: #aed8aa;
+    --color-4: #eeb1d0; --color-5: #ffffff; --color-6: #d9eee6;
+    --color-7: #f7e1aa; --color-8: #dadbe7;
+}
