@@ -22,39 +22,39 @@ const Beautifully = () => {
         immersive content consumption to smooth everyday productivity. Lumina
         15F delivers clarity, depth, and confidence in every pixel.
       </p>
-<div className="flex justify-between gap-40">
-  <div className=" flex flex-col items-center justify-center text-center">
-    <img src={icon16} alt="" className="mb-3" />
-    <h3 className="flex gap-10 justify-center text-[24px] text-[#4A4A4A] font-semibold">
-      16.2 million colors
-    </h3>
-    <p className="mt-2 text-[16px] text-[#3F3F3F]">
-      Faithful color expression
-    </p>
-  </div>
+      <div className="flex justify-between gap-40">
+        <div className=" flex flex-col items-center justify-center text-center">
+          <img src={icon16} alt="" className="mb-3" />
+          <h3 className="flex gap-10 justify-center text-[24px] text-[#4A4A4A] font-semibold">
+            16.2 million colors
+          </h3>
+          <p className="mt-2 text-[16px] text-[#3F3F3F]">
+            Faithful color expression
+          </p>
+        </div>
 
-  <div className=" flex flex-col items-center justify-center text-center">
-    <img src={icon1200} alt="" className="mb-3" />
-    <h3 className="flex gap-10 justify-center text-[24px] text-[#4A4A4A] font-semibold">
-      1200:1
-    </h3>
-    <p className="mt-2 text-[16px] text-[#3F3F3F]">
-      Contrast Ratio
-    </p>
-  </div>
+        <div className=" flex flex-col items-center justify-center text-center">
+          <img src={icon1200} alt="" className="mb-3" />
+          <h3 className="flex gap-10 justify-center text-[24px] text-[#4A4A4A] font-semibold">
+            1200:1
+          </h3>
+          <p className="mt-2 text-[16px] text-[#3F3F3F]">
+            Contrast Ratio
+          </p>
+        </div>
 
-  <div className=" flex flex-col items-center justify-center text-center">
-    <img src={sRGB} alt="sRGB Icon" className="mb-3" />
-    <h3 className="flex gap-10 justify-center text-[24px] text-[#4A4A4A] font-semibold">
-      <span>92% sRGB</span>
-      <span>79% P3</span>
-    </h3>
-    <p className="mt-2 text-[16px] text-[#3F3F3F]">
-      Wide, accurate color range
-    </p>
-  </div>
-</div>
-<img src={wide} alt="" className="w-full h-full"/>
+        <div className=" flex flex-col items-center justify-center text-center">
+          <img src={sRGB} alt="sRGB Icon" className="mb-3" />
+          <h3 className="flex gap-10 justify-center text-[24px] text-[#4A4A4A] font-semibold">
+            <span>92% sRGB</span>
+            <span>79% P3</span>
+          </h3>
+          <p className="mt-2 text-[16px] text-[#3F3F3F]">
+            Wide, accurate color range
+          </p>
+        </div>
+      </div>
+      <img src={wide} alt="" className="w-full h-full" />
     </div>
   );
 };

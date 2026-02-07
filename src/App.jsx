@@ -1,14 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header";
 import Beautifully from "./components/Beautifully";
 import Bags from "./components/Bags";
 import LaptopCart from "./components/LaptopCart";
+import Uniform from "./components/Uniform";
+import LaptopDetails from "./components/LaptopDetails";
+import Connectivity from "./components/Connectivity";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>
@@ -16,6 +15,9 @@ function App() {
       <Beautifully/>
       <Bags/>
       <LaptopCart/>
+      <Uniform/>
+      <LaptopDetails/>
+      <Connectivity/>
     </>
   );
 }
