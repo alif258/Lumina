@@ -9,6 +9,7 @@ import Connectivity from "./components/Connectivity";
 import Anywhere from "./components/Anywhere";
 import WhatintheBox from "./components/WhatintheBox";
 import VisualExcellence from "./components/VisualExcellence";
+import Animation from "./components/Animation";
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
     <>
       <Header />
       <Beautifully/>
+      <Animation/>
       <Bags/>
       <LaptopCart/>
       <Uniform/>
