@@ -3,7 +3,6 @@ import React from "react";
 const Header = () => {
   return (
     <div className="text-center">
-      {/* md:pb-4 দেওয়ার ফলে পিসিতে বাটনটি আরও নিচে নেমে যাবে */}
       <header className="bg-[url('./assets/heroBgMbl.png')] md:bg-[url('./assets/heroPic.png')] bg-cover bg-center h-[750px] md:h-screen w-full flex flex-col items-center justify-between pt-24 md:pt-18 pb-0 md:pb-16">
         
         {/* Text Content */}
@@ -18,7 +17,6 @@ const Header = () => {
           </h2>
         </div>
 
-        {/* PC Button - md:mb-0 করে একদম নিচে নামানো হয়েছে */}
         <button className="hidden md:block relative p-[2px] rounded-full bg-gradient-to-b from-[#492aea] via-[#ad7738] to-[#7638a9] transition-transform hover:scale-105 active:scale-95 shadow-lg mb-0">
           <div className="bg-white px-10 py-3 md:px-14 md:py-4 rounded-full">
             <span className="text-[18px] md:text-[22px] font-bold text-black uppercase tracking-wide">
@@ -27,11 +25,9 @@ const Header = () => {
           </div>
         </button>
 
-        {/* মোবাইলের স্পেসার */}
         <div className="md:hidden"></div>
       </header>
 
-      {/* Mobile Button - ইমেজের নিচে */}
       <div className="md:hidden py-8">
         <button className="relative p-[2px] rounded-full bg-gradient-to-b from-[#492aea] via-[#ad7738] to-[#7638a9] transition-transform hover:scale-105 active:scale-95 shadow-lg">
           <div className="bg-white px-10 py-3 rounded-full">

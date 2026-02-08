@@ -99,7 +99,7 @@ const Animation = () => {
 
   return (
     <div className="flex items-center justify-center py-14 md:py-20 px-4 md:px-0">
-      <div className="flex flex-col md:flex-row rounded-3xl md:rounded-[40px] overflow-hidden max-w-355 w-full pt-10 pb-0 md:pl-22 md:pr-0 md:py-0 h-auto md:min-h-186 relative gradient-bg box-4">
+      <div className="flex flex-col md:flex-row rounded-3xl md:rounded-[40px] overflow-hidden max-w-355 w-full pt-10 pb-0 md:pl-22 md:pr-0 md:py-0 h-[650px] md:h-220 relative gradient-bg box-4">
 
         {/* Left Side - Text Content */}
         <div className="w-full md:w-[50%] flex flex-col justify-center md:py-10 md:pr-20">
