@@ -4,7 +4,7 @@ import Group from "../assets/Group 27265.png";
 
 const Anywhere = () => {
   return (
-    <div className="max-w-355 m-auto flex flex-col items-center px-6 md:px-0 md:mt-0 mt-12">
+    <div className="max-w-355 m-auto flex flex-col items-center px-6 md:px-10 lg:px-0 md:mt-0 mt-12">
       <h1 className="text-[#BBBBBB] font-bold text-3xl md:text-5xl ">
         Your Workspace, <span className="text-[#48484C]">Anywhere</span>
       </h1>
@@ -13,7 +13,7 @@ const Anywhere = () => {
         you, from flights to hotel rooms.
       </p>
 
-      <div className="flex flex-col gap-6 md:gap-17.5 items-center w-full">
+      <div className="flex flex-col gap-6 md:gap-10  lg:gap-17.5 items-center w-full">
         {/* Top Image */}
         <div className="md:p-2 p-[5px] rounded-3xl gradient-bg box-5 w-full md:w-auto ">
           <img
@@ -24,7 +24,7 @@ const Anywhere = () => {
         </div>
 
         {/* Bottom Two Images - Mobile: Vertical, Tablet/Desktop: Horizontal */}
-        <div className="flex flex-col md:flex-row gap-6 md:gap-17.5 w-full md:w-auto">
+        <div className="flex flex-col md:flex-row gap-6 md:gap-10 lg:gap-17.5 w-full md:w-auto">
           <div className="md:p-2 p-[5px] rounded-3xl gradient-bg box-5 w-full md:w-auto">
             <img
               src={portable}
