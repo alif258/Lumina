@@ -1,5 +1,5 @@
-import Laptop from "../assets/Laptop.png";
-import LaptopImg from "../assets/LaptopImg.png";
+import laptop from "../assets/Laptop.png";
+import laptopImg from "../assets/LaptopImg.png";
 
 const WhatintheBox = () => {
   return (
@@ -8,12 +8,12 @@ const WhatintheBox = () => {
 
         <div className="img w-full md:w-[50%] flex justify-center items-end">
           <img
-            src={LaptopImg}
+            src={laptopImg}
             alt="Dual Speakers"
             className="w-full h-auto object-contain object-bottom block lg:hidden"
           />
           <img
-            src={Laptop}
+            src={laptop}
             alt="Dual Speakers"
             className="w-full h-auto object-contain object-bottom hidden lg:block"
           />
