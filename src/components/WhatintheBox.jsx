@@ -1,5 +1,5 @@
 import laptop from "../assets/Laptop.png";
-import laptopImg from "../assets/laptopImg.png";
+import laptopImg from "../assets/laptopImg.png"; 
 
 const WhatintheBox = () => {
   return (
