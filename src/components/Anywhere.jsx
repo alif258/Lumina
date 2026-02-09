@@ -15,7 +15,7 @@ const Anywhere = () => {
 
       <div className="flex flex-col gap-6 md:gap-17.5 items-center w-full">
         {/* Top Image */}
-        <div className="p-2 rounded-3xl gradient-bg box-5 w-full md:w-auto ">
+        <div className="md:p-2 p-[5px] rounded-3xl gradient-bg box-5 w-full md:w-auto ">
           <img
             src={hotel}
             alt="Hotel Workspace"
@@ -25,14 +25,14 @@ const Anywhere = () => {
 
         {/* Bottom Two Images - Mobile: Vertical, Tablet/Desktop: Horizontal */}
         <div className="flex flex-col md:flex-row gap-6 md:gap-17.5 w-full md:w-auto">
-          <div className="p-2 rounded-3xl gradient-bg box-5 w-full md:w-auto">
+          <div className="md:p-2 p-[5px] rounded-3xl gradient-bg box-5 w-full md:w-auto">
             <img
               src={portable}
               alt="Portable Setup"
               className="rounded-3xl w-full object-cover"
             />
           </div>
-          <div className="p-2 rounded-3xl gradient-bg box-5 w-full md:w-auto">
+          <div className="md:p-2 p-[5px] rounded-3xl gradient-bg box-5 w-full md:w-auto">
             <img
               src={Group}
               alt="Group Setup"

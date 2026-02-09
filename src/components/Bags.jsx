@@ -13,7 +13,7 @@ const Bags = () => {
   </h1>
 
   {/* Paragraph */}
-  <p className="text-[16px] md:text-[20px] text-[#4E4D4D] font-semibold max-w-[560px] ">
+  <p className="text-[16px] md:text-[20px] text-[#4E4D4D] font-semibold md:block hidden max-w-[560px] ">
    With a slim 4 mm profile and a lightweight 750 g build,
 Lumina 15F adds screen space without adding bulk.</p>
 </div>

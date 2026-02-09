@@ -8,7 +8,7 @@ import mblLaptop from "../assets/mblLaptop.png";
 const Beautifully = () => {
   return (
     <>
-    <div className="flex flex-col items-center px-6 md:px-0 mt-10 md:mt-20">
+    <div className="flex flex-col items-center px-6 md:px-0 mt-6 md:mt-3">
       {/* Headings: মোবাইলে সাইজ কমানো হয়েছে */}
       <h5 className="font-bold text-[20px] md:text-[32px] text-[#78797F] text-center">
         Wide Color Gamut Range

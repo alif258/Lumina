@@ -12,17 +12,17 @@ import full from "../assets/full HD 2.png";
 const LaptopCart = () => {
   return (
     <>
- <div className="px-6 md:px-0">
-   <div className='bg-[#E8ECF9] rounded-2xl p-6 max-w-355 m-auto mt-16 flex flex-col md:flex-row justify-between gap-10 md:gap-12'>
-    <div className="text gradient-bg box-4 rounded-2xl py-12 md:py-24 px-8 md:px-13 w-full md:w-[40%]">
+ <div className="px-6  md:px-0">
+   <div className='bg-[#E8ECF9] rounded-2xl p-6 pb-0 max-w-355 m-auto mt-16 flex flex-col md:flex-row justify-between gap-10 md:gap-12'>
+    <div className="text gradient-bg box-4 mb-6 rounded-2xl py-12 md:py-24 px-8 md:px-13 w-full md:w-[40%]">
       <h1 className='text-[28px] md:text-[32px] text-[#303031] font-bold mb-4.5'>Immersive Full HD</h1>
       <p className='text-[18px] md:text-[24px] text-[#292C30] leading-relaxed'>
         The Qbits Lumina 15F integrates a 15.6-inch Full HD (1920 × 1080) IPS panel designed for visual stability and consistency. With a 178° viewing angle, details remain sharp, colors stay balanced and brightness is evenly maintained across the screen, even when viewed from off-center positions.
       </p>
     </div>
 
-    <div className="img w-full md:w-[60%] flex flex-col">
-      <div className="icon flex flex-wrap justify-center md:justify-start gap-5 md:gap-6 md-0 md:mt-11">
+    <div className="img w-full md:w-[60%] flex flex-col items-center ">
+      <div className="icon flex flex-wrap justify-center md:justify-start gap-5 md:gap-6 md-0 md:mt-10">
         <div className="fullhd bg-[#EAEDFA] py-2 md:py-3 px-3 md:px-4.5 rounded-2xl flex items-center gap-2 border border-[#D1D5F6]">
           <img src={Ellipse1} alt="" className="w-4 h-4 md:w-auto md:h-auto" />
           <p className='text-[14px] md:text-[16px] font-semibold text-[#303031]'>Full HD</p>
@@ -52,8 +52,7 @@ const LaptopCart = () => {
         Dual 2W Stereo Speakers
       </h1>
       <p className='text-[18px] md:text-[24px] text-[#292C30] leading-relaxed'>
-        Produce bold, articulate bass and minimize distortion. Carefully tuned to reproduce clean mids and audible highs for voices and media. Altogether, this speaker system is designed to provide reliable, consistent audio for work, and casual entertainment on the go.
-      </p>
+        Produce bold, articulate bass and minimize distortion. Carefully tuned to reproduce clean mids and audible highs for voices and media. Altogether, this speaker system is designed to provide reliable, consistent audio for work, and casual entertainment on the go. The built-in 3.5 mm audio jack lets you connect headphones or external speakers for clear, uninterrupted audio. No distractions. No background noise. Just focused on sound for media, and work.</p>
     </div>
   </div>
 
