@@ -54,33 +54,33 @@ const Animation = () => {
   ];
 
   // Scroll-based animation setup
-  useEffect(() => {
-    const ctx = gsap.context(() => {
-      // Create scroll trigger for each section
-      const totalSections = accordionData.length;
+  // useEffect(() => {
+  //   const ctx = gsap.context(() => {
+  //     // Create scroll trigger for each section
+  //     const totalSections = accordionData.length;
       
-      ScrollTrigger.create({
-        trigger: sectionRef.current,
-        start: "top top",
-        end: `+=${window.innerHeight * totalSections}`,
-        pin: true,
-        scrub: 1,
-        onUpdate: (self) => {
-          const progress = self.progress;
-          const newIndex = Math.min(
-            Math.floor(progress * totalSections),
-            totalSections - 1
-          );
+  //     ScrollTrigger.create({
+  //       trigger: sectionRef.current,
+  //       start: "top top",
+  //       end: `+=${window.innerHeight * totalSections}`,
+  //       pin: true,
+  //       scrub: 1,
+  //       onUpdate: (self) => {
+  //         const progress = self.progress;
+  //         const newIndex = Math.min(
+  //           Math.floor(progress * totalSections),
+  //           totalSections - 1
+  //         );
           
-          if (newIndex !== openIndex) {
-            setOpenIndex(newIndex);
-          }
-        },
-      });
-    }, sectionRef);
+  //         if (newIndex !== openIndex) {
+  //           setOpenIndex(newIndex);
+  //         }
+  //       },
+  //     });
+  //   }, sectionRef);
 
-    return () => ctx.revert();
-  }, []);
+  //   return () => ctx.revert();
+  // }, []);
 
   // Image and content animations
   useEffect(() => {
