@@ -75,14 +75,22 @@
 }
 
 .box-4 {
-    --bg-color: #f5f3ff;
+    --bg-color: #e3e4be;
     --color-1: #afbad3; --color-2: #e6ddb9; --color-3: #aed8aa;
     --color-4: #eeb1d0; --color-5: #ffffff; --color-6: #d9eee6;
     --color-7: #f7e1aa; --color-8: #dadbe7;
 }
 .box-5 {
-    --bg-color: #D9D9D9;
+    --bg-color: #d9cddb;
     --color-1: #A2DDFF; --color-2: #FFEAA9; --color-3: #F2A5D9;
     --color-4: #B7F3BF; --color-5: #A2DDFF; --color-6: #FFEAA9;
     --color-7: #F2A5D9; --color-8: #B7F3BF;
+}
+
+
+.box-6 {
+    --bg-color: #dfaace;
+    --color-1: #afbad3; --color-2: #e6ddb9; --color-3: #aed8aa;
+    --color-4: #eeb1d0; --color-5: #ffffff; --color-6: #d9eee6;
+    --color-7: #f7e1aa; --color-8: #dadbe7;
 }
