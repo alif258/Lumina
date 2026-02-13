@@ -129,7 +129,7 @@ const Animation = () => {
     <div className="flex items-center justify-center py-8 sm:py-10 md:py-14 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-0">
       <div 
         ref={containerRef}
-        className="flex flex-col md:flex-row rounded-2xl sm:rounded-3xl md:rounded-[40px] overflow-hidden max-w-355 w-full pt-8 sm:pt-10 pb-0 md:pl-16 lg:pl-22 md:pr-0 md:py-0 h-[582px] sm:h-[650px] md:h-[700px] lg:h-[810px] xl:h-220 relative gradient-bg box-4"
+        className="flex flex-col md:flex-row rounded-2xl sm:rounded-3xl md:rounded-[40px] overflow-hidden max-w-355 w-full pt-8 sm:pt-10 pb-0 md:pl-16 lg:pl-22 md:pr-0 md:py-0 h-[582px] sm:h-[650px] md:h-[700px] lg:h-[810px] xl:h-220 relative gradient-bg box-6"
       >
 
         {/* Left Side - Text Content */}
