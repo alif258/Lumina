@@ -194,7 +194,7 @@ const Animation = () => {
   return (
     <div className="flex items-center justify-center py-8 sm:py-10 md:py-14 lg:py-20 px-4 sm:px-6 md:px-10 lg:px-0">
       <div 
-        className="flex flex-col md:flex-row rounded-2xl sm:rounded-3xl md:rounded-[40px] overflow-hidden max-w-355 w-full pt-8 sm:pt-10 pb-0 md:pl-4 lg:pl-5 md:pr-0 md:py-0 gap-5 lg:gap-0 md:gap-0  h-[500px] sm:h-[580px] md:h-[650px] lg:h-[750px] xl:h-200 relative gradient-bg box-6"
+        className="flex flex-col md:flex-row rounded-2xl sm:rounded-3xl md:rounded-[40px] overflow-hidden max-w-355 w-full pt-8 sm:pt-10 pb-0 md:pl-4 lg:pl-5 md:pr-0 md:py-0 gap-5 lg:gap-0 md:gap-0  h-125 sm:h-145 md:h-162.5 lg:h-187.5 xl:h-187 relative gradient-bg box-6"
       >
         {/* Desktop Navigation */}
         <div className="hidden md:flex absolute left-4 lg:left-6 top-1/2 -translate-y-1/2 flex-col space-y-3 z-30">
