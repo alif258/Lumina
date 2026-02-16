@@ -2,7 +2,7 @@ import React from "react";
 
 const VisualExcellence = () => {
   return (
-    <div className="px-6 md:px-10 lg:px-0">
+    <div className="px-6 md:px-10 lg:px-0 mb-40">
     <div className="max-w-355 m-auto gradient-bg box-5 pt-10 md:pt-16 px-7 text-center md:px-43 flex flex-col pb-10 md:pb-19 items-center rounded-3xl mt-14 md:mt-44 ">
       <h2 className="md:text-[48px] text-[28px] text-[#010101] font-bold ">Ultra-Slim Portable Visual Excellence</h2>
       <p className="md:text-[24px] text-[18px] text-[#010101] text-center mt-4 md:mt-8 mb-8 md:mb-10">

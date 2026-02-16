@@ -8,7 +8,7 @@ const Header = () => {
       <header
         className="
           bg-[url('./assets/heroBgMbl.png')] 
-          md:bg-[url('./assets/heroPic.png')] 
+          md:bg-[url('./assets/heropc.webp')] 
           bg-cover bg-center bg-no-repeat
           min-h-[70vh]
           lg:h-screen
@@ -19,7 +19,7 @@ const Header = () => {
         {/* TEXT */}
         <div className="absolute top-[18%] sm:top-[22%] md:top-[20%] lg:top-[15%] xl:top-[11%] 2xl:top-[10%] left-1/2 -translate-x-1/2 text-center px-4 w-full max-w-5xl">
 
-          <h1 className="text-[8vw] sm:text-[50px] md:text-[60px] lg:text-[80px] xl:text-[85px] 2xl:text-[90px] font-extrabold leading-none bg-gradient-to-r from-[#1e7bd9] via-[#45c8ff] to-[#b6f6ff] bg-clip-text text-transparent">
+          <h1 className="lg:mb-5 text-[8vw] sm:text-[50px] md:text-[60px] lg:text-[80px] xl:text-[85px] 2xl:text-[90px] font-extrabold leading-none bg-gradient-to-r from-[#1e7bd9] via-[#45c8ff] to-[#b6f6ff] bg-clip-text text-transparent">
             LUMINA 15F
           </h1>
 
@@ -33,7 +33,7 @@ const Header = () => {
       </header>
 
       {/* SINGLE BUTTON (OUTSIDE HERO / BELOW BG) */}
-      <div className="flex justify-center mt-6 md:mt-8 lg:mt-10 mb-8">
+      <div className="flex justify-center mt-6 md:mt-8 lg:mt-10 mb-8 lg:mb-15">
         <button className="p-[2px] rounded-full bg-gradient-to-b from-[#492aea] via-[#ad7738] to-[#7638a9] transition-transform hover:scale-105 active:scale-95 shadow-xl">
           <div className="bg-white px-8 py-3 md:px-12 lg:px-14 md:py-3 lg:py-4 rounded-full">
             <span className="text-[16px] md:text-[20px] lg:text-[22px] font-bold text-black uppercase tracking-wide">

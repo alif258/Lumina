@@ -22,41 +22,47 @@ const Beautifully = () => {
         </p>
 
       
-        <div className="flex flex-wrap md:flex-nowrap justify-center items-start gap-x-5 md:gap-x-16 lg:gap-x-12 xl:gap-x-20 gap-y-10 mb-10 md:mb-20 lg:mb-12 xl:mb-20 w-full">
+        <div className="flex flex-wrap md:flex-nowrap justify-center items-start gap-x-5 md:gap-x-16 lg:gap-x-12 xl:gap-x-10 gap-y-10 mb-10 md:mb-20 lg:mb-0 xl:mb-0 w-full">
           
           {/* Item 1 */}
-          <div className="flex flex-col items-center text-center w-[45%] md:flex-1">
-            <img src={icon16} alt="" className="mb-3 w-10 md:w-16 lg:w-12 xl:w-auto" />
-            <h3 className="text-[16px] md:text-[22px] lg:text-[18px] xl:text-[24px] text-[#4A4A4A] font-semibold leading-tight">
-              16.2 million colors
-            </h3>
-            <p className="mt-1 md:mt-2 text-[13px] md:text-[16px] text-[#3F3F3F]">
-              Faithful color expression
-            </p>
-          </div>
+       {/* Container - jate items gulo pashapashi thake ebong gap thake */}
+<div className="flex flex-wrap justify-center gap-8 md:gap-12 lg:gap-45">
+  
+  {/* Item 1 */}
+  <div className="flex flex-col items-center text-center w-fit">
+    <img src={icon16} alt="" className="mb-3 w-10 md:w-16 lg:w-12 xl:w-auto" />
+    <h3 className="text-[16px] md:text-[22px] lg:text-[18px] xl:text-[24px] text-[#4A4A4A] font-semibold leading-tight whitespace-nowrap">
+      16.2 million colors
+    </h3>
+    <p className="mt-1 md:mt-2 text-[13px] md:text-[16px] text-[#3F3F3F] whitespace-nowrap">
+      Faithful color expression
+    </p>
+  </div>
 
-          {/* Item 2 */}
-          <div className="flex flex-col items-center text-center w-[45%] md:flex-1">
-            <img src={icon1200} alt="" className="mb-3 w-10 md:w-16 lg:w-12 xl:w-auto" />
-            <h3 className="text-[16px] md:text-[22px] lg:text-[18px] xl:text-[24px] text-[#4A4A4A] font-semibold leading-tight">
-              1200:1
-            </h3>
-            <p className="mt-1 md:mt-2 text-[13px] md:text-[16px] text-[#3F3F3F]">
-              Contrast Ratio
-            </p>
-          </div>
+  {/* Item 2 */}
+  <div className="flex flex-col items-center text-center w-fit">
+    <img src={icon1200} alt="" className="mb-3 w-10 md:w-16 lg:w-12 xl:w-auto" />
+    <h3 className="text-[16px] md:text-[22px] lg:text-[18px] xl:text-[24px] text-[#4A4A4A] font-semibold leading-tight whitespace-nowrap">
+      1200:1
+    </h3>
+    <p className="mt-1 md:mt-2 text-[13px] md:text-[16px] text-[#3F3F3F] whitespace-nowrap">
+      Contrast Ratio
+    </p>
+  </div>
 
-          {/* Item 3  */}
-          <div className="flex flex-col items-center text-center w-full md:flex-1">
-            <img src={sRGB} alt="sRGB Icon" className="mb-3 w-10 md:w-16 lg:w-12 xl:w-auto" />
-            <h3 className="flex gap-3 justify-center text-[16px] md:text-[22px] lg:text-[18px] xl:text-[24px] text-[#4A4A4A] font-semibold leading-tight">
-              <span>92% sRGB</span>
-              <span>79% P3</span>
-            </h3>
-            <p className="mt-1 md:mt-2 text-[13px] md:text-[16px] text-[#3F3F3F]">
-              Wide, accurate color range
-            </p>
-          </div>
+  {/* Item 3 */}
+  <div className="flex flex-col items-center text-center w-fit">
+    <img src={sRGB} alt="sRGB Icon" className="mb-3 w-10 md:w-16 lg:w-12 xl:w-auto" />
+    <h3 className="flex gap-3 justify-center text-[16px] md:text-[22px] lg:text-[18px] xl:text-[24px] text-[#4A4A4A] font-semibold leading-tight whitespace-nowrap">
+      <span>92% sRGB</span>
+      <span>79% P3</span>
+    </h3>
+    <p className="mt-1 md:mt-2 text-[13px] md:text-[16px] text-[#3F3F3F] whitespace-nowrap">
+      Wide, accurate color range
+    </p>
+  </div>
+
+</div>
 
         </div>
       </div>

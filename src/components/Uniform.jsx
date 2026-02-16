@@ -1,4 +1,4 @@
-import Display from "../assets/Display 5 copy 1.png";
+import Display from "../assets/Display 5.webp";
 import MaskGroupMbl from "../assets/MaskGroupMbl.png";
 
 const Uniform = () => {

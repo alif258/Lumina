@@ -1,4 +1,4 @@
-import hotel from "../assets/hotel Lifestyle 1 1 1.png";
+import hotel from "../assets/Hotel Stay.webp";
 import portable from "../assets/portable monitor in cafe 2.png";
 import Group from "../assets/Group 27265.png";
 

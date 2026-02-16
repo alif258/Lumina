@@ -1,10 +1,10 @@
-import laptop from "../assets/Laptop.png";
+import laptop from "../assets/What's in the Box.webp";
 import problem from "../assets/problem.png";
 
 const WhatintheBox = () => {
   return (
     <div className="max-w-355 m-auto px-6 md:px-10 lg:px-0">
-      <div className="bg-[#E8ECF9] rounded-3xl pb-0 p-6 max-w-355 m-auto mt-20 md:mt-40 lg:mt-61.5 flex flex-col-reverse md:flex-row items-end justify-between gap-7 md:gap-8 lg:gap-10">
+      <div className="bg-[#E8ECF9] rounded-3xl pb-0 p-6 max-w-355 m-auto mt-20 md:mt-30 lg:mt-40 flex flex-col-reverse md:flex-row items-end justify-between gap-7 md:gap-8 lg:gap-10">
 
         <div className="img w-full md:w-[50%] flex justify-center items-end">
           <img
@@ -27,7 +27,7 @@ const WhatintheBox = () => {
             Everything you need to get started with the Qbits
           </p>
 
-          <ul className="list-disc list-outside ml-5 space-y-2 text-[#010101] text-[16px] md:text-[20px] lg:text-2xl mt-6.5">
+          <ul className="list-disc list-outside ml-5 space-y-2 text-[#010101] text-[16px] md:text-[20px] lg:text-[23px] mt-6.5">
             <li>Qbits Lumina 15F portable monitor included.</li>
             <li>One HDMI cable for easy connection.</li>
             <li>One USB-C to USB-C cable for compatible devices.</li>
