@@ -15,7 +15,7 @@ const Anywhere = () => {
 
       <div className="flex flex-col gap-6 md:gap-10  lg:gap-17.5 items-center w-full">
         {/* Top Image */}
-        <div className="md:p-2 p-[5px] rounded-3xl gradient-bg box-5 w-full md:w-auto ">
+        <div className="md:p-2 p-[5px] rounded-[50px] gradient-bg box-5 w-full md:w-auto ">
           <img
             src={hotel}
             alt="Hotel Workspace"

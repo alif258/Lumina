@@ -19,7 +19,7 @@ const WhatintheBox = () => {
           />
         </div>
 
-        <div className="text gradient-bg mb-6 box-3 rounded-3xl py-12 md:py-10 lg:py-12 px-8 md:px-10 lg:px-13 w-full md:w-[50%] flex flex-col justify-center">
+        <div className="text gradient-bg mb-6 box-3  rounded-3xl py-12 md:py-10 lg:py-12 px-8 md:px-10 lg:px-13 w-full md:w-[50%] flex flex-col justify-center">
           <h1 className="text-[27px] md:text-[28px] lg:text-[31px] text-[#010101] font-bold leading-[139%]">
             What's in the Box
           </h1>

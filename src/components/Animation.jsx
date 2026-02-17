@@ -226,7 +226,7 @@ const Animation = () => {
                 <div key={index} className="relative text-black w-full">
                   <div
                     ref={(el) => (parentRefs.current[index] = el)}
-                    className={`${ openAccordionIndex === index ? "md:p-4 lg:p-6" : "p-3" } rounded-[20px] md:rounded-[25px] lg:rounded-[30px] bg-white/60 backdrop-blur-md overflow-hidden will-change-transform w-full`}
+                    className={`${ openAccordionIndex === index ? "md:p-4 lg:p-6" : "p-3" } rounded-[20px] md:rounded-[25px] lg:rounded-[30px] bg-white/30 backdrop-blur-md overflow-hidden will-change-transform w-full`}
                   >
                     <h4
                       ref={(el) => (buttonRefs.current[index] = el)}
@@ -254,7 +254,7 @@ const Animation = () => {
 
           {/* Mobile Content */}
           <div className="md:hidden">
-            <div className="bg-white/60 backdrop-blur-md p-3 sm:p-4 rounded-xl sm:rounded-2xl mx-4 sm:mx-6">
+            <div className="bg-white/30 backdrop-blur-md p-3 sm:p-4 rounded-xl sm:rounded-2xl mx-4 sm:mx-6">
               <h4 className="font-semibold mb-2 text-[#3B3A3A] text-base sm:text-lg leading-[139.1%]">{accordionData[openAccordionIndex].title}</h4>
               <p className="mt-3 sm:mt-4 text-[#3B3A3A] text-sm sm:text-base leading-[139.1%] overflow-y-auto max-h-[150px] scrollbar-hide">
                 {accordionData[openAccordionIndex].content}

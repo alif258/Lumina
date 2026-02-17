@@ -14,7 +14,7 @@ const LaptopCart = () => {
     <>
  <div className="px-6 md:px-10 lg:px-0">
    <div className='shadow-lg bg-[#E8ECF9] rounded-2xl p-6 pb-0 max-w-355 m-auto mt-16 flex flex-col md:flex-row justify-between gap-10 md:gap-10 lg:gap-12'>
-    <div className="text gradient-bg box-4 mb-6 rounded-2xl py-12 md:py-16 lg:py-20 px-8 md:px-10 lg:px-13 w-full md:w-[45%]">
+    <div className="text gradient-bg box-3 mb-6 rounded-2xl py-12 md:py-16 lg:py-20 px-8 md:px-10 lg:px-13 w-full md:w-[45%]">
       <h1 className='text-[28px] md:text-[30px] lg:text-[32px] text-[#303031] font-bold mb-4.5'>Immersive Full HD</h1>
       <p className='text-[18px] md:text-[20px] lg:text-[24px] text-[#292C30] leading-relaxed'>
         The Qbits Lumina 15F integrates a 15.6-inch Full HD (1920 × 1080) IPS panel designed for visual stability and consistency. With a 178° viewing angle, details remain sharp, colors stay balanced and brightness is evenly maintained across the screen, even when viewed from off-center positions.
