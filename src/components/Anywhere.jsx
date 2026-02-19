@@ -1,5 +1,5 @@
 import hotel from "../assets/Hotel Stay.webp";
-import portable from "../assets/portable monitor in cafe 2.png";
+import portable from "../assets/portable monitor in cafe 2.webp";
 import Group from "../assets/Ultimate Mobile Gaming.webp";
 
 const Anywhere = () => {

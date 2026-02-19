@@ -7,7 +7,7 @@ const Header = () => {
       {/* HERO */}
       <header
         className="
-          bg-[url('./assets/heroBgMbl.png')] 
+          bg-[url('./assets/heroBgMbl.webp')] 
           md:bg-[url('./assets/heropc.webp')] 
           bg-cover bg-center bg-no-repeat
           min-h-[70vh]

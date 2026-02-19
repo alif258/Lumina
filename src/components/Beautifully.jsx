@@ -3,7 +3,7 @@ import icon16 from "../assets/16.2 icon.webp";
 import icon1200 from "../assets/1200 1 C R.webp";
 import sRGB from "../assets/sRGB icon.webp";
 import wide from "../assets/wide color gamut detail 1.webp";
-import mblLaptop from "../assets/mblLaptop.png";
+import mblLaptop from "../assets/mblLaptop.webp";
 
 const Beautifully = () => {
   return (

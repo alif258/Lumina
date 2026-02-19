@@ -7,13 +7,13 @@ const LaptopDetails = () => {
     return (
 <div className="w-full flex flex-col gap-10 md:gap-12 lg:gap-15 xl:gap-15 py-15 md:py-28 lg:-mt-35 lg:-mb-10 lg:py-50 xl:py-50 px-6 md:px-10 lg:px-0
     /* Mobile: Image jate kete na jay tai bg-top and bg-[length] use kora hoyeche */
-    bg-[url('./assets/mblbg.png')] bg-no-repeat bg-top bg-[length:100%_100%]
+    bg-[url('./assets/mblbg.webp')] bg-no-repeat bg-top bg-[length:100%_100%]
     /* Tablet: Desktop image background */
-    md:bg-[url('./assets/bg01.png')] md:bg-center md:bg-cover md:min-h-screen
+    md:bg-[url('./assets/bg01.webp')] md:bg-center md:bg-cover md:min-h-screen
     /* Laptop: No background */
     lg:bg-none lg:min-h-0
     /* Desktop (xl): Background image again */
-    xl:bg-[url('./assets/bg01.png')] xl:bg-center xl:bg-cover xl:min-h-screen">
+    xl:bg-[url('./assets/bg01.webp')] xl:bg-center xl:bg-cover xl:min-h-screen">
     
     {/* Section 01 */}
     <div className="div01 max-w-[1420px] m-auto flex flex-col md:flex-row items-center gap-10 md:gap-10 lg:gap-12">

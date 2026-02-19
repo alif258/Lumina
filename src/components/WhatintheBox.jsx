@@ -1,5 +1,5 @@
 import laptop from "../assets/What's in the Box.webp";
-import problem from "../assets/problem.png";
+import problem from "../assets/problem.webp";
 
 const WhatintheBox = () => {
   return (

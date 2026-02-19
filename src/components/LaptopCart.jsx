@@ -6,7 +6,7 @@ import FullHD from "../assets/full HD 2.webp";
 import Dual from "../assets/Dual 2W Stereo Speakers.webp";
 import truecolor from "../assets/truecolor 1.png";
 import low from "../assets/low blue light icon 1.png";
-import full from "../assets/full HD 2.png";
+import full from "../assets/mblfullhd2.webp";
 
 
 const LaptopCart = () => {
