@@ -1,11 +1,11 @@
 import React from 'react'
-import Ellipse1 from "../assets/Ellipse 1.png";
-import Ellipse2 from "../assets/Ellipse 2.png";
-import Ellipse3 from "../assets/Ellipse 3.png";
+import Ellipse1 from "../assets/Ellipse 1.webp";
+import Ellipse2 from "../assets/Ellipse 2.webp";
+import Ellipse3 from "../assets/Ellipse 3.webp";
 import FullHD from "../assets/full HD 2.webp";
 import Dual from "../assets/Dual 2W Stereo Speakers.webp";
-import truecolor from "../assets/truecolor 1.png";
-import low from "../assets/low blue light icon 1.png";
+import truecolor from "../assets/truecolor 1.webp";
+import low from "../assets/low blue light icon 1.webp";
 import full from "../assets/mblfullhd2.webp";
 
 
